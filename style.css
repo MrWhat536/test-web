@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'TMT';
+	src: url("qwe.ttf") format("truetype");
+}
+html{
+	background: url('assets/images/space1.svg');
+	height:60%
+}
+body{
+	height:60%;
+}
+
+.counter {
+	width:100%;
+	height:100%;
+	position:relative;
+	text-align: center;
+	right:30px;
+	user-select:none;
+	bottom: 110px;
+	
+}
+#yo {
+	
+	font-weight: 700;
+    font-family: 'TMT';
+	font-size: 350%;
+	color: #060607;
+	line-height: 300px
+}
+#yo1{
+	color: #f2f3f4;
+	width:500px;
+	height:100px;
+}
+#coin{
+	position:relative;
+	width:70px;
+	height:70px;
+	left:20px;
+	top: 13px;
+	pointer-events:none;
+}
+.button{
+	width:100%;
+	height:100%px;
+	position:relative;
+	text-align: center;
+	bottom: 30px;
+	user-select:none;
+}
+#big_coin{
+	position:relative;
+	justify-content:center;
+	width:auto;
+	height:auto;
+	pointer-events:none;
+}
+#SyS{
+	
+	position:relative;
+	width:330px;
+	height:330px;
+	bottom:80px;
+	border-radius: 300px;
+	border: none; 
+	background-color: transparent;
+	transition: all 0.08s ease-in-out;
+	
+}
+#SyS:active{
+	position:relative;
+	width:325px;
+	height:325px;
+	bottom:80px;
+	border-radius: 300px;
+	border: none; 
+	background-color: transparent;
+}
+
+.ProgressB{
+	position:relative;
+	text-align: center;
+	width:20px;
+	height:250px;
+	border-radius:1.5em;
+	background-color: rgba(0,0,0,1);
+}
+
