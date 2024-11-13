@@ -4,12 +4,12 @@ var a = "голоса:"
 count = coin;
 var eng = 10000;
 const button = document.getElementById('SyS')
-document.getElementById("yo1").innerHTML ="Голоса"+count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "\u202F");
+document.getElementById("yo1").innerHTML ="Голоса: "+count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "\u202F");
 
 
 function ClickB(el){
 	count ++;
-	document.getElementById("yo1").innerHTML ="Голоса"+count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "\u202F");
+	document.getElementById("yo1").innerHTML ="Голоса: "+count.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "\u202F");
 	eng--;
 	localStorage.setItem('coin', count);
 
