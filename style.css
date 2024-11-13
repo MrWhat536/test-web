@@ -3,7 +3,7 @@
 	src: url("qwe.ttf") format("truetype");
 }
 html{
-	background: url('assets/images/space1.svg');
+	background-color: black;
 	height:60%
 }
 body{
